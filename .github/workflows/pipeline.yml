@@ -4,14 +4,14 @@
 # documentation.
 # This workflow will build a Java project with Gradle and cache/restore any dependencies to improve the workflow execution time
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-gradle
-
+# Changing to ensure I got the flow
 name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "artifact2" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "artifact2" ]
   workflow_dispatch:
     inputs:
       myTestArgs:
