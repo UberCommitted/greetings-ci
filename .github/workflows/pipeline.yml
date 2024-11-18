@@ -9,9 +9,9 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "artifact2" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "artifact2" ]
+    branches: [ "main" ]
   workflow_dispatch:
     inputs:
       myTestArgs:
